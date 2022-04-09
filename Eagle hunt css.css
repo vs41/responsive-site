@@ -1,0 +1,222 @@
+*{
+	margin:0;
+	padding:0;
+}
+#header{
+	color:white;
+	background-color:rgba(128, 128, 128,.1);
+	
+	
+}
+#nav_ul{
+	     list-style:none;
+		 padding:0px;
+		 margin:0px;
+		 float:right;
+		 margin-right:10px;
+	
+	
+}
+#nav_ul li{
+	      display:inline-block;
+		  color:white;
+	
+}
+#menu{
+	   list-style:none;
+
+	
+	
+}
+#menu li{
+	     display:inline-block;
+		 margin-top:10px;
+	
+}
+menu li{
+	     display:inline-block;
+		 margin-top:10px;
+	
+}
+/*.nav_ul li a{
+	       color:white;
+		   padding:10px 10px;
+		   display:block;
+		   text-decoration:none;
+	
+}*/
+a:hover{
+	text-decoration:none;
+	
+}
+
+
+
+#banner-row-margin{
+	    margin-top:-50px;
+	
+	
+}
+
+#job_image{
+	    height:50px;
+        width:50px;		
+	
+}
+#accounting_div{
+	      background:rgba(19, 20, 23, .5);
+	
+}
+#tesimonial_image{
+	    width:90px;
+		height:90px;
+		border-radius:50%;
+	
+}
+.footer_ul{
+	   list-style:none;
+	   margin-top:0px;
+	   padding:0px;
+	
+	
+}
+#footer_ul a{
+	       color:black;
+		   display:block;
+		   text-decoration:none;
+	
+}
+/* logo style*/
+@media(min-width:700px){
+span{
+                 
+                 position: relative;
+               animation-name: example;
+               animation-duration: 5s;
+              animation-timing-function: linear;
+              animation-delay: 2s;
+                animation-iteration-count: infinite;
+               animation-direction: alternate;
+}
+
+@keyframes example {
+  0%   {color:red; left:0px; top:0px;border-color:red}
+  50%  {color:yellow; left:60px; top:0px;border-color:yellow }
+  100% {color:red; left:0px; top:0px;border-color:red}
+}
+}
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.signin{
+    width: 90px;
+    height:40px;
+	margin-top:12px;
+    border-radius: 50px;
+    padding-bottom: 4px;
+    font-weight: bold;
+    background-color: rgb(9, 114, 146); 
+    border: 1px solid rgb(9, 114, 146); 
+    color:white;
+    letter-spacing: 1px;
+    border: 2px solid #b5c0d3;
+    box-shadow: inset 0 0 0 0 #b5c0d3;
+    -webkit-transition: ease-in 10s;
+    -moz-transition: ease-out 1s;
+    transition: ease-out 2s;
+}
+.signin:hover {
+    box-shadow: inset 400px 0 0 0 #b5c0d3;
+  }
+  .button_slide {
+    color: #FFF;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+#nav-item a:hover{
+    font-size: 18px;
+    text-shadow: 3px;
+	background:none;
+}
+@media(max-width:400px){
+	h1{
+		font-size:30px;
+	}
+	
+	
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
